@@ -12,6 +12,16 @@ body,
   height: 100%;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #3b82f6; /* Replace with your desired color */
+  border-radius: 9999px;
+}
+
 /*
 :root {
   --foreground-rgb: 0, 0, 0;
