@@ -9,7 +9,10 @@ import NavBar from './components/Navigation';
 export default function Home() {
   return (
     <>
-      <NavBar />
+      <div>
+        <NavBar />
+      </div>
+
       <IntroPage />
       <AboutMe />
       <TechnologySection />
