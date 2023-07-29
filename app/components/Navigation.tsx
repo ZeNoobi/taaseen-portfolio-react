@@ -1,8 +1,16 @@
 const NavBar = () => {
   return (
     <div className='w-full bg-transparent fixed'>
-      <div className='text-cyan-50'>Hello</div>
-      <div>Hey</div>
+      <div className='text-cyan-50 flex justify-between'>
+        <p>Icon</p>
+        <ul className='flex'>
+          <li>Home</li>
+          <li>About</li>
+          <li>Technologies</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </div>
     </div>
   );
 };
