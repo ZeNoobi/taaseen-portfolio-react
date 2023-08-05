@@ -1,23 +1,18 @@
 const IntroPage = () => {
   return (
-    <div className='h-full w-full bg-gradient-to-b from-blue-500 to-sky-950 text-white'>
+    <div className='h-full w-full bg-gradient-to-b from-blue-500 to-sky-950 text-white flex justify-center items-center'>
       {/*<section className='flex items-center justify-between'></section>*/}
-      <div className='w-full flex justify-center items-center h-screen'>
-        <div className='h-16'></div>
-        <div className='flex justify-center'>
-          <div className='w-1/3 flex justify-center'>
-            <div>
-              <h3>
-                <span>Hello</span>, my name is <span>Taaseen</span>.
-              </h3>
-              <h3>
-                I am a <span>Fullstack Developer</span>
-              </h3>
-            </div>
-          </div>
-          <div className='w-1/4'></div>
-          <div className='w-1/3 flex justify-center'>Picture</div>
+      <div className='bg-red-500 flex justify-center min-w-full h-56'>
+        <div className='w-1/2'>
+          <h3 className='text-5xl'>
+            Hello, I am <span>Taaseen.</span>
+          </h3>
+          <h3 className='text-6xl'>
+            <span>Fullstack</span> Developer
+          </h3>
         </div>
+        {/*<div className='w-1/5'></div>*/}
+        <div className='w-1/3'>Picture</div>
       </div>
     </div>
   );
