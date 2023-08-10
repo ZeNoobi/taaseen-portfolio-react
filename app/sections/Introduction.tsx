@@ -6,12 +6,15 @@ const IntroPage = () => {
       {/*<section className='flex items-center justify-between'></section>*/}
       <div className=' flex justify-center min-w-full h-56'>
         <div className='w-1/2'>
-          <h3 className='text-xl'>
+          <h3 className='text-xl p-3'>
             Hi, My name is{' '}
             <span className='text-emerald-400'>Taaseen Chowdhury</span>.
           </h3>
           <h3 className='text-8xl'>
-            <span>Fullstack</span> Developer
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>
+              Fullstack
+            </span>{' '}
+            Developer
           </h3>
         </div>
         {/*<div className='w-1/5'></div>*/}

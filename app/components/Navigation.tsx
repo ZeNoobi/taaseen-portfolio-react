@@ -4,7 +4,7 @@ const NavBar = () => {
   const handleClick = () => {};
 
   return (
-    <div className='w-full bg-transparent fixed'>
+    <div className='w-full fixed bg-slate-700 blur-sm'>
       <div className='text-cyan-50 flex justify-between'>
         <p className='p-2'>Icon</p>
         <ul className='flex p-2'>
