@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const IntroPage = () => {
   return (
-    <div className='h-full w-full bg-gradient-to-b from-lightnavy to-navy text-white flex justify-center items-center'>
+    <div className='h-full w-full bg-lightnavy text-white flex justify-center items-center'>
       {/*<section className='flex items-center justify-between'></section>*/}
       <div className=' flex justify-center min-w-full h-56'>
         <div className='w-1/2'>
@@ -20,7 +20,7 @@ const IntroPage = () => {
         {/*<div className='w-1/5'></div>*/}
         <div className='w-1/3 flex justify-center items-center'>
           <Image
-            src='/undraw_code_thinking_re_gka2.svg'
+            src='/UndrawCodeThinkingEmerald.svg'
             width={625}
             height={625}
             alt='draw'

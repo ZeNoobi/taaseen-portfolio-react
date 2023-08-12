@@ -4,17 +4,28 @@ const NavBar = () => {
   const handleClick = () => {};
 
   return (
-    <div className='w-full fixed bg-slate-700 blur-sm'>
-      <div className='text-cyan-50 flex justify-between'>
+    <div className='w-full fixed glass shadow-xl'>
+      <div className='flex justify-between text-emerald-400 font-medium'>
         <p className='p-2'>Icon</p>
         <ul className='flex p-2'>
-          <li className='pr-3' onClick={handleClick}>
+          <li
+            className='pr-3 hover:text-pink-600 cursor-pointer font-bold'
+            onClick={handleClick}
+          >
             Home
           </li>
-          <li className='pr-3'>About</li>
-          <li className='pr-3'>Technologies</li>
-          <li className='pr-3'>Projects</li>
-          <li className='pr-3'>Contact</li>
+          <li className='pr-3 hover:text-pink-600 cursor-pointer hover:font-bold'>
+            About
+          </li>
+          <li className='pr-3 hover:text-pink-600 cursor-pointer hover:font-bold'>
+            Technologies
+          </li>
+          <li className='pr-3 hover:text-pink-600 cursor-pointer hover:font-bold'>
+            Projects
+          </li>
+          <li className='pr-3 hover:text-pink-600 cursor-pointer hover:font-bold'>
+            Contact
+          </li>
         </ul>
       </div>
     </div>

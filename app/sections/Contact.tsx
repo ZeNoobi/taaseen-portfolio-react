@@ -1,5 +1,9 @@
 const ContactSection = () => {
-  return <div className='w-full h-full bg-gray-950 text-white'>Contact</div>;
+  return (
+    <div className='w-full h-full bg-gradient-to-b from-lightnavy to-navy text-white'>
+      Contact
+    </div>
+  );
 };
 
 export default ContactSection;

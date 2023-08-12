@@ -10,15 +10,17 @@ html,
 body,
 :root {
   height: 100%;
+  /*width: 100vw;*/
+  /*overflow-x: hidden;*/
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 5px;
   height: 6px;
-  background-color: black;
+  background-color: #112240;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #3b82f6; /* Replace with your desired color */
+  background-color: rgb(52 211 153); /* Replace with your desired color */
   border-radius: 9999px;
 }
 
@@ -50,3 +52,14 @@ body {
     rgb(var(--background-start-rgb));
 }
 */
+
+.glass {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.021
+  ); /* Adjust the color and opacity as needed */
+  backdrop-filter: blur(2px); /* Adjust the blur amount as needed */
+  -webkit-backdrop-filter: blur(2px); /* For Safari */
+}
