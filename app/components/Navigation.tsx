@@ -9,23 +9,17 @@ const NavBar = () => {
         <p className='p-2'>Icon</p>
         <ul className='flex p-2'>
           <li
-            className='pr-3 hover:text-pink-600 cursor-pointer font-bold'
+            className='pr-3 hover:text-pink-600 cursor-pointer'
             onClick={handleClick}
           >
             Home
           </li>
-          <li className='pr-3 hover:text-pink-600 cursor-pointer hover:font-bold'>
-            About
-          </li>
-          <li className='pr-3 hover:text-pink-600 cursor-pointer hover:font-bold'>
+          <li className='pr-3 hover:text-pink-600 cursor-pointer'>About</li>
+          <li className='pr-3 hover:text-pink-600 cursor-pointer'>
             Technologies
           </li>
-          <li className='pr-3 hover:text-pink-600 cursor-pointer hover:font-bold'>
-            Projects
-          </li>
-          <li className='pr-3 hover:text-pink-600 cursor-pointer hover:font-bold'>
-            Contact
-          </li>
+          <li className='pr-3 hover:text-pink-600 cursor-pointer'>Projects</li>
+          <li className='pr-3 hover:text-pink-600 cursor-pointer'>Contact</li>
         </ul>
       </div>
     </div>
