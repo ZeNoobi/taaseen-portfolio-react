@@ -1,4 +1,4 @@
-import Image from 'next/image';
+//import Image from 'next/image';
 import IntroPage from './sections/Introduction';
 import AboutMe from './sections/About';
 import TechnologySection from './sections/Technology';
