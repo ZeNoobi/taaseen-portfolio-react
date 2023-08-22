@@ -12,14 +12,21 @@ const NavBar = () => {
             className='pr-3 hover:text-pink-600 cursor-pointer'
             onClick={handleClick}
           >
+            <span className='text-sm text-zinc-400 hover:text-white'>1.</span>{' '}
             Home
           </li>
-          <li className='pr-3 hover:text-pink-600 cursor-pointer'>About</li>
           <li className='pr-3 hover:text-pink-600 cursor-pointer'>
-            Technologies
+            <span className='text-sm text-zinc-400'>2.</span> About
           </li>
-          <li className='pr-3 hover:text-pink-600 cursor-pointer'>Projects</li>
-          <li className='pr-3 hover:text-pink-600 cursor-pointer'>Contact</li>
+          <li className='pr-3 hover:text-pink-600 cursor-pointer'>
+            <span className='text-sm text-zinc-400'>3.</span> Technologies
+          </li>
+          <li className='pr-3 hover:text-pink-600 cursor-pointer'>
+            <span className='text-sm text-zinc-400'>4.</span> Projects
+          </li>
+          <li className='pr-3 hover:text-pink-600 cursor-pointer'>
+            <span className='text-sm text-zinc-400'>5.</span> Contact
+          </li>
         </ul>
       </div>
     </div>
