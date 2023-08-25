@@ -1,6 +1,6 @@
 const ProjectSection = () => {
   return (
-    <div className='w-full h-full bg-gradient-to-b from-indigo-950 to-lightnavy text-white'>
+    <div className='w-full h-[1000px] bg-gradient-to-b from-indigo-950 to-lightnavy text-white'>
       Project
     </div>
   );

@@ -4,7 +4,7 @@ const NavBar = () => {
   const handleClick = () => {};
 
   return (
-    <div className='w-full fixed glass shadow-xl'>
+    <div className='w-full fixed glass shadow-xl z-10'>
       <div className='flex justify-between text-emerald-400 font-medium'>
         <p className='p-2'>Icon</p>
         <ul className='flex p-2'>
