@@ -19,7 +19,7 @@ const AboutMe = () => {
           <p>
             From a young age, I grew up using computers. I became interested in
             how different applications and programs worked. This curiosity
-            blossomed into interest in software development and engineering. I
+            blossomed into an interest in software development and engineering. I
             majored in computer science and learned about the theory and the
             Agile development cycle. I fell in love with the entire development
             process, from requirement gathering to user deployment. I faced each
