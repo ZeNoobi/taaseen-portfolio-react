@@ -11,7 +11,7 @@ const AboutMe = () => {
           width={400}
         />
       </div>
-      <div className='w-2/3 p-5'>
+      <div className='w-2/3 p-5 md:pr-28'>
         <h2 className='text-4xl md:text-6xl p-5 flex justify-center'>
           About Me
         </h2>
@@ -23,7 +23,7 @@ const AboutMe = () => {
             majored in computer science and learned about the theory and the
             Agile development cycle. I fell in love with the entire development
             process, from requirement gathering to user deployment. I faced each
-            new challenge with a positive and inquisitive mind thus overcoming
+            new challenge with a positive and inquisitive mind which allowed me to overcome
             many hurdles in my software development journey.
           </p>
         </div>
