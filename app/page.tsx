@@ -5,6 +5,7 @@ import TechnologySection from './sections/Technology';
 import ProjectSection from './sections/Projects';
 import ContactSection from './sections/Contact';
 import NavBar from './components/Navigation';
+import Link from 'next/link';
 
 export default function Home() {
   return (
