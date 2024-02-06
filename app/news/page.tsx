@@ -4,6 +4,7 @@ import AboutMe from "../sections/About";
 import TechnologySection from "../sections/Technology";
 import ProjectSection from "../sections/Projects";
 import ContactSection from "../sections/Contact";
+import Playground from "./playground";
 
 export default function page(){
     return(
@@ -17,7 +18,7 @@ export default function page(){
     <TechnologySection />
     <ProjectSection />
     <ContactSection />
-
+    <Playground />
 </>
 
     ) 
