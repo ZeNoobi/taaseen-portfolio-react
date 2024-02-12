@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const IntroPage = () => {
   return (
-    <div className='h-[800px] md:h-full w-full bg-lightnavy text-white flex justify-center md:items-center'>
+    <div id='intro' className='h-[800px] md:h-full w-full bg-lightnavy text-white flex justify-center md:items-center'>
       {/*<section className='flex items-center justify-between'></section>*/}
       <div className=' flex justify-center min-w-full h-56 flex-wrap mt-32 md:mt-0'>
         <div className='w-[600px]'>

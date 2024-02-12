@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react"
+import { forwardRef } from "react";
 
-
-const Playground = () => {
+const Playground = forwardRef(function Playground() {
 
 let forsee:number;
 
@@ -33,7 +33,7 @@ let forsee:number;
             <div>{numba}</div>
             <div><button className='border-2 border-red-500' onClick={increaseC}>Click ME!</button></div>
         </div>
-    )
-}
+        )
+});
 
 export default Playground;

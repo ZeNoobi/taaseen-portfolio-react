@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const AboutMe = () => {
   return (
-    <div className='h-[1000px] w-full md:h-full bg-gradient-to-b from-lightnavy to-indigo-950 text-white flex items-center flex-col md:flex-row'>
+    <div id='about' className='h-[1000px] w-full md:h-full bg-gradient-to-b from-lightnavy to-indigo-950 text-white flex items-center flex-col md:flex-row'>
       <div className='w-1/2 md:w-1/3 h-[200px] p-5 flex items-center justify-center'>
         <Image
           src='/CuriousUndraw.svg'
