@@ -1,6 +1,14 @@
 'use client';
 
-const NavBar = ({handleHome, handleAbout, handleTech, handleProj, handleContact}) => {
+interface Navprops {
+  handleHome: ()=> void;
+  handleAbout: ()=> void;
+  handleTech: ()=> void;
+  handleProj: ()=> void;
+  handleContact: ()=> void;
+}
+
+const NavBar: React.FC<Navprops> = ({handleHome, handleAbout, handleTech, handleProj, handleContact}) => {
   //const handleClick = () => {};
 
   return (
