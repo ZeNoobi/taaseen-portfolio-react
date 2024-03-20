@@ -62,4 +62,11 @@ body {
   ); /* Adjust the color and opacity as needed */
   backdrop-filter: blur(2px); /* Adjust the blur amount as needed */
   -webkit-backdrop-filter: blur(2px); /* For Safari */
+
+}
+
+.projectView{
+  @media screen and (max-width: 1300px) {
+    visibility: hidden;
+  }
 }

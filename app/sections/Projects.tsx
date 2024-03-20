@@ -8,7 +8,7 @@ const ProjectSection = () => {
           What I&apos;ve Worked On
         </h2>
       </div>
-      <div className='bg-purple-400 w-[1300px] h-80 m-5 p-5 flex rounded-lg'>
+      <div className='bg-purple-400 w-[1300px] h-80 m-5 p-5 flex rounded-lg projectView'>
         <div className='h-full w-1/3 bg-gray-600'>
           <Image src='/ScrumLogo.png' alt="projectlogo" width={800} height={800} />
         </div>
@@ -38,7 +38,7 @@ const ProjectSection = () => {
         </div>
       </div>
 
-      <div className='bg-green-500 w-[1300px] h-80 m-5 p-5 flex'>
+      <div className='bg-green-500 w-[1300px] h-80 m-5 p-5 flex rounded-lg projectView'>
         <div className='h-full w-1/3 bg-gray-600'>
         <Image src='/ScrumLogo.png' alt="projectlogo" width={800} height={800} />
         </div>
@@ -68,7 +68,7 @@ const ProjectSection = () => {
         </div>
       </div>
 
-      <div className='bg-green-500 w-[1300px] h-80 m-5 p-5 flex'>
+      <div className='bg-green-500 w-[1300px] h-80 m-5 p-5 flex rounded-lg projectView'>
         <div className='h-full w-1/3 bg-gray-600'>
         <Image src='/ScrumLogo.png' alt="projectlogo" width={800} height={800} />
         </div>
