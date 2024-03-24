@@ -67,6 +67,14 @@ body {
 
 .projectView{
   @media screen and (max-width: 1300px) {
-    visibility: hidden;
+    display: none;
+  }
+}
+
+.projectView2{
+  display:none;  
+
+  @media screen and (max-width: 1300px) {
+    display: block;
   }
 }

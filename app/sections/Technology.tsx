@@ -14,21 +14,21 @@ const TechnologySection = () => {
           <h1 className='text-4xl md:text-6xl'>Technology I Use</h1>
         </div>
         <div className='w-full p-5 flex justify-evenly flex-wrap mt-1'>
-          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass m-1 flex flex-col justify-center items-center'>
+          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass mb-10 m-3 flex flex-col justify-center items-center'>
             <div className='pb-5'>
               {' '}
               <Image alt='html logo' src='/html.png' width={80} height={80}/>
             </div>
             HTML
           </div>
-          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass m-1 flex flex-col justify-center items-center'>
+          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass mb-10 m-3 flex flex-col justify-center items-center'>
             <div className='pb-5'>
               {' '}
               <Image alt='css logo' src='/css.png' width={80} height={80} />
             </div>
             CSS
           </div>
-          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass m-1 flex flex-col justify-center items-center'>
+          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass mb-10 m-3 flex flex-col justify-center items-center'>
             <div className='pb-5'>
               {' '}
               <div className='rounded-full overflow-hidden'>
@@ -42,7 +42,7 @@ const TechnologySection = () => {
             </div>
             Type/Javascript
           </div>
-          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass m-1 flex flex-col justify-center items-center'>
+          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass mb-10 m-3 flex flex-col justify-center items-center'>
             <div className='pb-5'>
               {' '}
               <Image
@@ -54,7 +54,7 @@ const TechnologySection = () => {
             </div>
             ReactJS
           </div>
-          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass m-1 flex flex-col justify-center items-center'>
+          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass mb-10 m-3 flex flex-col justify-center items-center'>
             <div className='m-5'>
               {' '}
               <Image
@@ -66,7 +66,7 @@ const TechnologySection = () => {
             </div>
             TailwindCSS
           </div>
-          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass m-1 flex flex-col justify-center items-center'>
+          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass mb-10 m-3 flex flex-col justify-center items-center'>
             <div className='pb-5'>
               {' '}
               <div className='bg-white rounded-full'>
@@ -80,7 +80,7 @@ const TechnologySection = () => {
             </div>
             NextJS
           </div>
-          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass m-1 flex flex-col justify-center items-center'>
+          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass mb-10 m-3 flex flex-col justify-center items-center'>
             <div className='pb-5'>
               {' '}
               <Image
@@ -92,7 +92,7 @@ const TechnologySection = () => {
             </div>
             NodeJS
           </div>
-          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass m-1 flex flex-col justify-center items-center'>
+          <div className='w-[150px] h-32 xl:w-[350px] xl:h-64 glass mb-10 m-3 flex flex-col justify-center items-center'>
             <div className='pb-5'>
               {' '}
               <div className='bg-white rounded-full w-[80px] h-[80px]'>

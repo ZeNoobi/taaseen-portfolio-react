@@ -97,6 +97,71 @@ const ProjectSection = () => {
           </footer>
         </div>
       </div>
+
+      <div className='bg-green-500 lg:w-[1000px] h-80 m-5 p-5 projectView2'>
+        <header id="pict">
+        <Image src='/ScrumLogo.png' alt="projectlogo" width={80} height={80} />
+        </header>
+          <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis minus commodi quia consectetur reprehenderit dicta quaerat corrupti repellat, sunt a laborum cumque sapiente iste odio consequatur ullam natus incidunt voluptates?
+          Corrupti sunt obcaecati in temporibus! Tempore dignissimos perspiciatis fugiat tenetur nesciunt quis delectus blanditiis ipsum suscipit fugit assumenda, sint sed illum ducimus eaque perferendis magni voluptates? Repudiandae odit nisi officia.
+          Libero earum nemo minus totam voluptas sit doloribus, ducimus magni eum est autem tempore nisi, deleniti aut unde praesentium velit commodi deserunt dolorum error amet! Repudiandae quibusdam sequi atque dolorem?</p>
+        <footer>
+          <div id="madewith"><ul>
+            <li>React</li>
+            <li>Taiwlind</li>
+            <li>Typescript</li>
+            </ul>
+            </div>
+          <div id="thelinks">
+            <span>Visit</span>
+            <span>Github</span>
+            <span>Demo</span>
+          </div>
+        </footer>
+      </div>
+      <div className='bg-green-500 lg:w-[1000px] h-80 m-5 p-5 projectView2'>
+        <header id="pict">
+        <Image src='/ScrumLogo.png' alt="projectlogo" width={80} height={80} />
+        </header>
+          <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis minus commodi quia consectetur reprehenderit dicta quaerat corrupti repellat, sunt a laborum cumque sapiente iste odio consequatur ullam natus incidunt voluptates?
+          Corrupti sunt obcaecati in temporibus! Tempore dignissimos perspiciatis fugiat tenetur nesciunt quis delectus blanditiis ipsum suscipit fugit assumenda, sint sed illum ducimus eaque perferendis magni voluptates? Repudiandae odit nisi officia.
+          Libero earum nemo minus totam voluptas sit doloribus, ducimus magni eum est autem tempore nisi, deleniti aut unde praesentium velit commodi deserunt dolorum error amet! Repudiandae quibusdam sequi atque dolorem?</p>
+        <footer>
+          <div id="madewith"><ul>
+            <li>React</li>
+            <li>Taiwlind</li>
+            <li>Typescript</li>
+            </ul>
+            </div>
+          <div id="thelinks">
+            <span>Visit</span>
+            <span>Github</span>
+            <span>Demo</span>
+          </div>
+        </footer>
+      </div>
+      <div className='bg-green-500 lg:w-[1000px] h-80 m-5 p-5 projectView2'>
+        <header id="pict">
+        <Image src='/ScrumLogo.png' alt="projectlogo" width={80} height={80} />
+        </header>
+          <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis minus commodi quia consectetur reprehenderit dicta quaerat corrupti repellat, sunt a laborum cumque sapiente iste odio consequatur ullam natus incidunt voluptates?
+          Corrupti sunt obcaecati in temporibus! Tempore dignissimos perspiciatis fugiat tenetur nesciunt quis delectus blanditiis ipsum suscipit fugit assumenda, sint sed illum ducimus eaque perferendis magni voluptates? Repudiandae odit nisi officia.
+          Libero earum nemo minus totam voluptas sit doloribus, ducimus magni eum est autem tempore nisi, deleniti aut unde praesentium velit commodi deserunt dolorum error amet! Repudiandae quibusdam sequi atque dolorem?</p>
+        <footer>
+          <div id="madewith"><ul>
+            <li>React</li>
+            <li>Taiwlind</li>
+            <li>Typescript</li>
+            </ul>
+            </div>
+          <div id="thelinks">
+            <span>Visit</span>
+            <span>Github</span>
+            <span>Demo</span>
+          </div>
+        </footer>
+      </div>
+
     </div>
   );
 };
