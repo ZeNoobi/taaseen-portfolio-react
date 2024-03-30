@@ -98,66 +98,81 @@ const ProjectSection = () => {
         </div>
       </div>
 
-      <div className='bg-green-500 lg:w-[1000px] h-80 m-5 p-5 projectView2'>
-        <header id="pict">
-        <Image src='/ScrumLogo.png' alt="projectlogo" width={80} height={80} />
+      <div className='bg-green-500 lg:w-[1000px] h-fit m-5 p-5 projectView2'>
+        <div className='w-full flex justify-center pb-6'>
+          <h3>Project 1</h3>
+        </div>
+
+        <header id="pict" className='w-full flex justify-center pb-6'>
+        <Image src='/ScrumLogo.png' alt="projectlogo" width={380} height={380} />
         </header>
-          <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis minus commodi quia consectetur reprehenderit dicta quaerat corrupti repellat, sunt a laborum cumque sapiente iste odio consequatur ullam natus incidunt voluptates?
-          Corrupti sunt obcaecati in temporibus! Tempore dignissimos perspiciatis fugiat tenetur nesciunt quis delectus blanditiis ipsum suscipit fugit assumenda, sint sed illum ducimus eaque perferendis magni voluptates? Repudiandae odit nisi officia.
-          Libero earum nemo minus totam voluptas sit doloribus, ducimus magni eum est autem tempore nisi, deleniti aut unde praesentium velit commodi deserunt dolorum error amet! Repudiandae quibusdam sequi atque dolorem?</p>
-        <footer>
-          <div id="madewith"><ul>
+        
+        <div id="madewith" className='w-full flex justify-center pb-6'><ul className='flex space-x-3'>
             <li>React</li>
             <li>Taiwlind</li>
             <li>Typescript</li>
             </ul>
             </div>
-          <div id="thelinks">
-            <span>Visit</span>
-            <span>Github</span>
-            <span>Demo</span>
+          <p id="description">Libero earum nemo minus totam voluptas sit doloribus, ducimus magni eum est autem tempore nisi, deleniti aut unde praesentium velit commodi deserunt dolorum error amet! Repudiandae quibusdam sequi atque dolorem?</p>
+        <footer className='w-full pt-6'>
+          <div id="thelinks" className='w-full flex justify-center'>
+          <ul className='flex space-x-3'>
+            <li>Visit</li>
+            <li>Github</li>
+            <li>Demo</li>
+            </ul>
           </div>
         </footer>
       </div>
-      <div className='bg-green-500 lg:w-[1000px] h-80 m-5 p-5 projectView2'>
-        <header id="pict">
-        <Image src='/ScrumLogo.png' alt="projectlogo" width={80} height={80} />
+      <div className='bg-green-500 lg:w-[1000px] h-fit m-5 p-5 projectView2'>
+        <div className='w-full flex justify-center pb-6'>
+          <h3>Project 1</h3>
+        </div>
+
+        <header id="pict" className='w-full flex justify-center pb-6'>
+        <Image src='/ScrumLogo.png' alt="projectlogo" width={380} height={380} />
         </header>
-          <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis minus commodi quia consectetur reprehenderit dicta quaerat corrupti repellat, sunt a laborum cumque sapiente iste odio consequatur ullam natus incidunt voluptates?
-          Corrupti sunt obcaecati in temporibus! Tempore dignissimos perspiciatis fugiat tenetur nesciunt quis delectus blanditiis ipsum suscipit fugit assumenda, sint sed illum ducimus eaque perferendis magni voluptates? Repudiandae odit nisi officia.
-          Libero earum nemo minus totam voluptas sit doloribus, ducimus magni eum est autem tempore nisi, deleniti aut unde praesentium velit commodi deserunt dolorum error amet! Repudiandae quibusdam sequi atque dolorem?</p>
-        <footer>
-          <div id="madewith"><ul>
+        
+        <div id="madewith" className='w-full flex justify-center pb-6'><ul className='flex space-x-3'>
             <li>React</li>
             <li>Taiwlind</li>
             <li>Typescript</li>
             </ul>
             </div>
-          <div id="thelinks">
-            <span>Visit</span>
-            <span>Github</span>
-            <span>Demo</span>
+          <p id="description">Libero earum nemo minus totam voluptas sit doloribus, ducimus magni eum est autem tempore nisi, deleniti aut unde praesentium velit commodi deserunt dolorum error amet! Repudiandae quibusdam sequi atque dolorem?</p>
+        <footer className='w-full pt-6'>
+          <div id="thelinks" className='w-full flex justify-center'>
+          <ul className='flex space-x-3'>
+            <li>Visit</li>
+            <li>Github</li>
+            <li>Demo</li>
+            </ul>
           </div>
         </footer>
       </div>
-      <div className='bg-green-500 lg:w-[1000px] h-80 m-5 p-5 projectView2'>
-        <header id="pict">
-        <Image src='/ScrumLogo.png' alt="projectlogo" width={80} height={80} />
+      <div className='bg-green-500 lg:w-[1000px] h-fit m-5 p-5 projectView2'>
+        <div className='w-full flex justify-center pb-6'>
+          <h3>Project 1</h3>
+        </div>
+
+        <header id="pict" className='w-full flex justify-center pb-6'>
+        <Image src='/ScrumLogo.png' alt="projectlogo" width={380} height={380} />
         </header>
-          <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis minus commodi quia consectetur reprehenderit dicta quaerat corrupti repellat, sunt a laborum cumque sapiente iste odio consequatur ullam natus incidunt voluptates?
-          Corrupti sunt obcaecati in temporibus! Tempore dignissimos perspiciatis fugiat tenetur nesciunt quis delectus blanditiis ipsum suscipit fugit assumenda, sint sed illum ducimus eaque perferendis magni voluptates? Repudiandae odit nisi officia.
-          Libero earum nemo minus totam voluptas sit doloribus, ducimus magni eum est autem tempore nisi, deleniti aut unde praesentium velit commodi deserunt dolorum error amet! Repudiandae quibusdam sequi atque dolorem?</p>
-        <footer>
-          <div id="madewith"><ul>
+        
+        <div id="madewith" className='w-full flex justify-center pb-6'><ul className='flex space-x-3'>
             <li>React</li>
             <li>Taiwlind</li>
             <li>Typescript</li>
             </ul>
             </div>
-          <div id="thelinks">
-            <span>Visit</span>
-            <span>Github</span>
-            <span>Demo</span>
+          <p id="description">Libero earum nemo minus totam voluptas sit doloribus, ducimus magni eum est autem tempore nisi, deleniti aut unde praesentium velit commodi deserunt dolorum error amet! Repudiandae quibusdam sequi atque dolorem?</p>
+        <footer className='w-full pt-6'>
+          <div id="thelinks" className='w-full flex justify-center'>
+          <ul className='flex space-x-3'>
+            <li>Visit</li>
+            <li>Github</li>
+            <li>Demo</li>
+            </ul>
           </div>
         </footer>
       </div>

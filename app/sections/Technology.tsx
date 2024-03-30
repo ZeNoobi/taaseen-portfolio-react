@@ -7,7 +7,7 @@ const TechnologySection = () => {
   const tech = useRef<HTMLDivElement | null>(null);
 
   return (
-    <div id='tech' ref={tech} className='h-[900px] xl:h-[900px] w-full md:h-full bg-gradient-to-b from-indigo-950 to-indigo-950 text-white md:justify-center md:items-center'>
+    <div id='tech' ref={tech} className='h-[1300px] xl:h-[1000px] w-full md:h-full bg-gradient-to-b from-indigo-950 to-indigo-950 text-white md:justify-center md:items-center'>
       
       <div className='w-full h-1/4'>
         <div className='flex justify-center h-[180px] items-end'>
