@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ProjectSection = () => {
   return (
-    <div id='project' className='w-full h-[1500px] flex flex-col items-center justify-center bg-gradient-to-b from-indigo-950 to-lightnavy text-white'>
+    <div id='project' className='w-full h-[2000px] md:h-[1800px] flex flex-col items-center justify-center bg-gradient-to-b from-indigo-950 to-lightnavy text-white'>
       <div className='w-full h-[50px]'>
         <h2 className='text-5xl flex justify-center'>
           What I&apos;ve Worked On
