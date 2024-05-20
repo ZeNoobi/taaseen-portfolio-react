@@ -8,9 +8,11 @@ const ProjectSection = () => {
           What I&apos;ve Worked On
         </h2>
       </div>
-      <div className='bg-purple-400 w-[1300px] h-80 m-5 p-5 flex rounded-lg projectView'>
-        <div className='h-full w-1/3 bg-gray-600'>
-          <Image src='/ScrumLogo.png' alt="projectlogo" width={800} height={800} />
+
+      <div className='w-full flex flex-col justify-center items-center px-10'>
+      <div className='bg-purple-400 w-full h-80 m-5 p-5 flex rounded-lg projectView'>
+        <div className='h-[280px] w-[600px] bg-gray-600 overflow-hidden'>
+          <Image src='/ScrumLogo.png' alt="projectlogo" width={500} height={500} />
         </div>
         <div className='bg-red-500 w-full h-full'>
           <div className='w-full bg-orange-700 h-1/4'>
@@ -39,8 +41,8 @@ const ProjectSection = () => {
       </div>
 
       <div className='bg-green-500 w-[1300px] h-80 m-5 p-5 flex rounded-lg projectView'>
-        <div className='h-full w-1/3 bg-gray-600'>
-        <Image src='/ScrumLogo.png' alt="projectlogo" width={800} height={800} />
+        <div className='h-full w-[600px] bg-gray-600 overflow-hidden'>
+        <Image src='/ScrumLogo.png' alt="projectlogo" width={500} height={500} />
         </div>
         <div className='bg-red-500 w-full h-full'>
           <div className='w-full bg-orange-700 h-1/4'>
@@ -69,7 +71,7 @@ const ProjectSection = () => {
       </div>
 
       <div className='bg-green-500 w-[1300px] h-80 m-5 p-5 flex rounded-lg projectView'>
-        <div className='h-full w-1/3 bg-gray-600'>
+        <div className='h-full w-[600px] bg-gray-600 overflow-hidden'>
         <Image src='/ScrumLogo.png' alt="projectlogo" width={800} height={800} />
         </div>
         <div className='bg-red-500 w-full h-full'>
@@ -97,7 +99,8 @@ const ProjectSection = () => {
           </footer>
         </div>
       </div>
-
+      </div>
+{/*
       <div className='bg-green-500 lg:w-[1000px] h-fit m-5 p-5 projectView2'>
         <div className='w-full flex justify-center pb-6'>
           <h3>Project 1</h3>
@@ -176,7 +179,7 @@ const ProjectSection = () => {
           </div>
         </footer>
       </div>
-
+  */}
     </div>
   );
 };
