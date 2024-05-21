@@ -12,7 +12,7 @@ const AboutMe = () => {
         />
       </div>
       <div className='w-2/3 p-5 md:pr-28'>
-        <h2 className='text-4xl md:text-6xl p-5 flex justify-center'>
+        <h2 className='text-4xl md:text-6xl p-5 flex justify-center text-emerald-300'>
           About Me
         </h2>
         <div>

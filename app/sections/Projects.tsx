@@ -3,22 +3,22 @@ import Image from "next/image";
 const ProjectSection = () => {
   return (
     <div id='project' className='w-full h-[2000px] md:h-[1800px] flex flex-col items-center justify-center bg-gradient-to-b from-indigo-950 to-lightnavy text-white'>
-      <div className='w-full h-[50px]'>
-        <h2 className='text-5xl flex justify-center'>
+      <div className='w-full h-[100px]'>
+        <h2 className='text-5xl flex justify-center text-emerald-300'>
           What I&apos;ve Worked On
         </h2>
       </div>
 
-      <div className='w-full flex flex-col justify-center items-center px-10'>
-      <div className='bg-purple-400 w-full h-80 m-5 p-5 flex rounded-lg projectView'>
-        <div className='h-[280px] w-[600px] bg-gray-600 overflow-hidden'>
-          <Image src='/ScrumLogo.png' alt="projectlogo" width={500} height={500} />
+      <div className='w-full flex flex-col justify-center items-center 2xl:px-20'>
+      <div className='glass w-full h-80 2xl:h-96 m-5 p-5 flex rounded-lg projectView'>
+        <div className='h-[280px] w-[630px] 2xl:w-[730px] 2xl:h-[343px] bg-gray-600 flex justify-center rounded-lg overflow-hidden'>
+          <Image src='/ScrumLogo.png' alt="projectlogo" height={500} width={500}/>
         </div>
-        <div className='bg-red-500 w-full h-full'>
-          <div className='w-full bg-orange-700 h-1/4'>
-            <h3 className='text-5xl pr-2 pl-2'>Project 1</h3>
+        <div className=' w-full h-full'>
+          <div className='w-full  h-1/4'>
+            <h3 className='text-5xl pr-2 pl-10'>Project 1</h3>
           </div>
-          <div className='h-2/4 bg-lime-500 pr-2 pl-2'>
+          <div className='h-2/4 overflow-hidden pr-2 pl-5'>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
               ipsa veniam est enim consectetur doloribus obcaecati sed quasi,
@@ -32,8 +32,8 @@ const ProjectSection = () => {
               porro repellendus est fugiat cupiditate eligendi? Nisi, nobis?
             </p>
           </div>
-          <footer className='h-1/4 bg-green-600 w-full flex'>
-            <button className='ml-5'>Visit</button>
+          <footer className='h-1/4  flex justify-between w-1/3'>
+            <button className='ml-10'>Visit</button>
             <button>Github</button>
             <button>Demo</button>
           </footer>
@@ -100,7 +100,7 @@ const ProjectSection = () => {
         </div>
       </div>
       </div>
-{/*
+
       <div className='bg-green-500 lg:w-[1000px] h-fit m-5 p-5 projectView2'>
         <div className='w-full flex justify-center pb-6'>
           <h3>Project 1</h3>
@@ -179,7 +179,7 @@ const ProjectSection = () => {
           </div>
         </footer>
       </div>
-  */}
+  
     </div>
   );
 };
