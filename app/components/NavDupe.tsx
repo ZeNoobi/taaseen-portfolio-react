@@ -1,6 +1,10 @@
 'use client';
 import { useRef } from "react";
 
+interface NavDupe{
+  
+}
+
 const NavDupe = ({handleHome, handleAbout, handleTech, handleProj, handleContact}) => {
 
   return (

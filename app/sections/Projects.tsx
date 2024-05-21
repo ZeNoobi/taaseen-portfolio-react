@@ -9,9 +9,9 @@ const ProjectSection = () => {
         </h2>
       </div>
 
-      <div className='w-full flex flex-col justify-center items-center 2xl:px-20'>
+      <div className='w-full flex flex-col justify-center items-center px-10 2xl:px-25'>
       <div className='glass w-full h-80 2xl:h-96 m-5 p-5 flex rounded-lg projectView'>
-        <div className='h-[280px] w-[630px] 2xl:w-[730px] 2xl:h-[343px] bg-gray-600 flex justify-center rounded-lg overflow-hidden'>
+        <div className='h-[280px] w-[630px] 2xl:w-[700px] 2xl:h-[343px] bg-gray-600 flex justify-center rounded-lg overflow-hidden'>
           <Image src='/ScrumLogo.png' alt="projectlogo" height={500} width={500}/>
         </div>
         <div className=' w-full h-full'>
