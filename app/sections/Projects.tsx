@@ -2,15 +2,15 @@ import Image from "next/image";
 
 const ProjectSection = () => {
   return (
-    <div id='project' className='w-full h-[2000px] md:h-[1800px] flex flex-col items-center justify-center bg-gradient-to-b from-indigo-950 to-lightnavy text-white'>
-      <div className='w-full h-[100px]'>
+    <div id='project' className='w-full h-[2000px] md:h-[1800px] flex flex-col items-center bg-gradient-to-b from-indigo-950 to-lightnavy text-white'>
+      <div className='w-full h-[200px] flex justify-center items-center'>
         <h2 className='text-5xl flex justify-center text-emerald-300'>
           What I&apos;ve Worked On
         </h2>
       </div>
 
       <div className='w-full flex flex-col justify-center items-center px-10 2xl:px-25'>
-      <div className='glass w-full h-80 2xl:h-96 m-5 p-5 flex rounded-lg projectView'>
+      <div className='glass w-full h-80 2xl:h-96 m-5 p-5 flex border-indigo-500 border-2 rounded-xl projectView'>
         <div className='h-[280px] w-[630px] 2xl:w-[700px] 2xl:h-[343px] bg-gray-600 flex justify-center rounded-lg overflow-hidden'>
           <Image src='/ScrumLogo.png' alt="projectlogo" height={500} width={500}/>
         </div>
@@ -32,10 +32,10 @@ const ProjectSection = () => {
               porro repellendus est fugiat cupiditate eligendi? Nisi, nobis?
             </p>
           </div>
-          <footer className='h-1/4  flex justify-between w-1/3'>
-            <button className='ml-10'>Visit</button>
-            <button>Github</button>
-            <button>Demo</button>
+          <footer className='h-1/4 ml-10 flex items-center justify-between 2xl:w-1/3 w-1/2'>
+            <button className='bg-indigo-800 rounded-xl px-10 h-8 mx-3'>Visit</button>
+            <button className='bg-indigo-800 rounded-xl px-10 h-8 mx-3'>Github</button>
+            <button className='bg-indigo-800 rounded-xl px-10 h-8 mx-3'>Demo</button>
           </footer>
         </div>
       </div>

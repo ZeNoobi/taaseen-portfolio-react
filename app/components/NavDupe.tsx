@@ -1,11 +1,15 @@
 'use client';
 import { useRef } from "react";
 
-interface NavDupe{
-  
+interface NavItems{
+  handleHome: ()=> void;
+  handleAbout: ()=> void;
+  handleTech: ()=> void;
+  handleProj: ()=> void;
+  handleContact: ()=> void;
 }
 
-const NavDupe = ({handleHome, handleAbout, handleTech, handleProj, handleContact}) => {
+const NavDupe: React.FC<NavItems> = ({handleHome, handleAbout, handleTech, handleProj, handleContact}) => {
 
   return (
     <div className='w-full fixed glass shadow-xl z-10'>
